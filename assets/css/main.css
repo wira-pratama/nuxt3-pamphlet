@@ -113,10 +113,14 @@
       }
 
     .slideLeft-animation {
-      animation: slideLeft 1s ease 0s 1 normal forwards;
+		max-width: 20;
+		overflow-x: hidden;
+      	animation: slideLeft 1s ease 0s 1 normal forwards;
     }
 
     .slideRight-animation {
+		max-width: 20;
+		overflow-x: hidden;
         animation: slideRight 1s ease 0s 1 normal forwards;
     }
 
